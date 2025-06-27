@@ -1,0 +1,129 @@
+PAGE-BY-PAGE BREAKDOWN
+1. HOME PAGE
+Purpose:
+To welcome users and introduce them to the site's mission — promoting access to sustainability knowledge and SDG-related materials.
+
+What to include:
+Big search bar like the UN Digital Library (Suggestion #2)
+
+Filters: by SDG goal, type of content (article, journal, video), year, region, etc.
+
+Featured section like NatGeo’s site (Suggestion #5)
+
+Highlights current issues, trending articles, or spotlight SDGs.
+
+Navigation tiles or cards for each of the 17 SDGs.
+
+Call to action:
+
+"Explore Articles"
+
+"Track Impact"
+
+"Join Local Events"
+
+2. SDG SHELVES
+Purpose:
+This is a library-style view categorized by each SDG goal — users can click on an SDG tile and explore all content under that theme.
+
+Think:
+Like World Bank's SDG Explorer (Suggestion #3)
+
+What to include:
+Grid of the 17 SDGs — each one is clickable.
+
+Upon clicking a tile:
+
+You go to a filtered list of articles specific to that goal.
+
+Option to sort: newest, most viewed, highest rated, etc.
+
+Thumbnail, brief intro, type (journal, article, report), and date.
+
+3. ARTICLE PAGE
+Purpose:
+Show full article/research view with all the relevant metadata.
+
+Based on:
+The clean, informative structure of JSTOR (Suggestion #4)
+
+What to include:
+Article title, author, date, SDG tags
+
+Content (or preview + download button if external)
+
+Topbar with:
+
+Type (Research? Opinion? Policy Paper?)
+
+Option to download PDF
+
+Save / Bookmark / Cite
+
+Related articles or “You may also like” section
+
+Optional: comments/discussion section if allowed
+
+4. IMPACT TRACKER
+Purpose:
+To help users see how sustainability efforts are progressing — possibly through:
+
+Graphs
+
+Submitted actions
+
+Local or global event tracking
+
+What to include:
+Dashboard-style layout
+
+Track impact metrics per SDG:
+
+e.g., “23 tree-planting events under SDG 13 (Climate Action)”
+
+Users can:
+
+Sign up for local sustainability events (Suggestion #6)
+
+Submit their own actions or events
+
+Earn badges or see contribution stats
+
+Possibly link to a database (e.g., Firebase or JSON) to log user impact entries
+
+🌱 BONUS FEATURES TO CONSIDER
+User accounts: To save/bookmark articles, register for events, and track personal impact
+
+Cite button: Auto-generate APA/MLA citation like JSTOR
+
+Filter-heavy search: On homepage and SDG pages (UN Digital Library style)
+
+Mobile responsive design
+
+Sustainability color palette: Greens, blues, neutrals
+
+🔤 TEXT CONTENT STRATEGY
+"i-consider yung text na gagamitin" — Meaning: write concise, clear, and inclusive text.
+
+Suggestions:
+
+Avoid jargon; be beginner-friendly.
+
+Use action-oriented headers (“Take Action,” “Learn About SDG 4,” etc.)
+
+Make metadata easy to read: author, date, tags, type.
+
+📌 NEXT STEPS
+Design wireframes (in Figma or even hand-drawn)
+
+Set up navigation: Home, SDG Shelves, Impact Tracker, About
+
+Create a content model:
+
+Each article needs: title, author, date, SDG tag, type, summary, link, etc.
+
+Build your database or CMS if applicable (Firebase or local JSON).
+
+Implement search and filter system
+
+Populate with dummy data/articles for demo
